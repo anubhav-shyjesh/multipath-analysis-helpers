@@ -38,9 +38,9 @@ from datetime import datetime, timezone
 import h5py
 import numpy as np
 
-import channel2d as c2
-from channel2d import BandConfig, BANDS, cir          # re-exported for convenience  # noqa: F401
-from trace3d import PathSet3D, C0
+from sim_tools.modules_2d import channel2d as c2
+from sim_tools.modules_2d.channel2d import BandConfig, BANDS, cir          # re-exported for convenience  # noqa: F401
+from sim_tools.modules_3d.trace3d import PathSet3D, C0
 
 FORMAT_VERSION = "1.0"
 PHASE_MODES = ("geometric", "random_carrier")

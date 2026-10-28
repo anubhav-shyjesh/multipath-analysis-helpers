@@ -34,7 +34,7 @@ from datetime import datetime, timezone
 import h5py
 import numpy as np
 
-import paths2d as p2
+from sim_tools.modules_2d import paths2d as p2
 
 C0 = p2.C0
 EPS0 = 8.8541878128e-12       # vacuum permittivity, F/m
